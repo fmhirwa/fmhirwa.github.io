@@ -17,8 +17,11 @@ body {
     font-weight: bold;
     margin-bottom: 0.5em;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: lowercase;
     color: #0d366c;
+ }
+ h2:hover {
+    text-transform: capitalize;
  }
 
 header {
@@ -41,6 +44,10 @@ ul {
 
 li {
     margin: 0 10px;
+    text-transform: lowercase;
+}
+li:hover {
+    text-transform: capitalize;
 }
 
 a {
@@ -56,6 +63,10 @@ section {
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -126,6 +137,11 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+    text-transform: lowercase;
+    color: #0d366c;
+}
+th:hover {
+    text-transform: capitalize;
 }
 
 /* Media Queries for Responsiveness */
