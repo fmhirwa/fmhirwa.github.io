@@ -187,3 +187,24 @@ a:hover {
     filter: blur(5px); /* Adjust the blur radius as needed */
 }
 
+
+/* Style for tables in education and experience sections */
+.table-container {
+    overflow-x: auto; /* Add horizontal scrolling for small screens; Tested on Pixel 5 */
+} 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
